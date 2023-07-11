@@ -14,4 +14,4 @@ Year-Month-Day - Event - Title
 
 I hope you'll find them useful 🤞
 
-If you have any questions? 🤔 - Please reach out to me on [Twitter](https://twitter.com/tanddant) or [LinkedIn](https://www.linkedin.com/in/tanddant/). 🙋‍♂️
+If you have any questions? 🤔 - Please reach out to me on [Twitter](https://twitter.com/tanddant) or [LinkedIn](https://www.linkedin.com/in/dan-toft/). 🙋‍♂️
