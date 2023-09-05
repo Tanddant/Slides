@@ -1,4 +1,4 @@
-# Quick links web part sample
+# React JSON forms
 
 ## Summary
 This in an SPFx web part that let's the user build a custom form either using a JSON schema, or the pretty intuitive UI. The web part is built using React.
