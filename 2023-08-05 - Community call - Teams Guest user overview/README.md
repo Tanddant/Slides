@@ -6,7 +6,7 @@ A SPFx solutions that works as teams app, and gives an IT-admin an overview of t
 
 ## Link
 
-| Title     | Link                                                                                                                                                           |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Recording | Not up yet                                                                                                                                                     |
+| Title     | Link                                                                                                     |
+| --------- | -------------------------------------------------------------------------------------------------------- |
+| Recording | [Not up yet        ](https://youtu.be/nfH9epR5Pwk?si=3G8lZGRY4JlfKtsW&t=839)                             |
 | Code      | [https://github.com/Tanddant/TeamsGuestUserOverview](https://github.com/Tanddant/TeamsGuestUserOverview) |
