@@ -8,5 +8,5 @@ A SPFx solutions allows a develeoper to easily make changes to the SharePoint Te
 
 | Title     | Link                                                                                                                                                                       |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Recording | Not up yet                                                                                                                                                                 |
+| Recording | [https://www.youtube.com/watch?v=gOGFo9Stnho](https://www.youtube.com/watch?v=gOGFo9Stnho)                                                                                                                                                                 |
 | Code      | [https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-extension-manager](https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-extension-manager) |
