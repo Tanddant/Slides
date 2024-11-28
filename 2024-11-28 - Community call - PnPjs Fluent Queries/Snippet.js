@@ -62,12 +62,53 @@ const SessionExpands = [...SessionSelects.filter(s => s.indexOf("/") > -1).map(s
 (async () => {
 
 
+
+  
+
+
+
+
+
+
+  const query = sp.web.lists.filter("Title eq 'Sessions' or Title eq 'Speakers'").select("Id", "Title")
+  //const query = sp.web.lists.filter(l => l.text("Title").equals("Sessions").or().text("Title").equals("Speakers")).select("Id", "Title")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   let Sessions: IItems = sp.web.lists.getByTitle("Sessions").items.select(...SessionSelects).expand(...SessionExpands).top(1000);
   let Speakers: IItems = sp.web.lists.getByTitle("Speakers").items.select(...SpeakerSelects).top(1000);
 
 
   //const query = Sessions.filter<ISession>(s => s.text("Category").equals("Microsoft Teams"));
-  const query = Sessions.filter("Category eq 'Microsoft Teams'");
+  //const query = Sessions.filter("Category eq 'Microsoft Teams'");
 
 
 
@@ -77,6 +118,8 @@ const SessionExpands = [...SessionSelects.filter(s => s.indexOf("/") > -1).map(s
 
   const filterstring = new URLSearchParams(query.toRequestUrl()).get("$filter");
   const r = await query();
+
+  console.log(r)
 
   bodyElement.innerHTML = `<pre style="margin:0"><code class="language-json">// ${r.length} result(s)\n\n// ${filterstring}\n\n${JSON.stringify(r, null, 4)}</code></pre>`;
   (window as any).hljs.highlightAll();
