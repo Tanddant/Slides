@@ -2,7 +2,7 @@
 
 ## Summary
 
-PnP js is an amazing library that let's us write cleaner code, but with this latest update we can now also write cleaner queries.
+PnPjs is an amazing library that let's us write cleaner code, but with this latest update we can now also write cleaner queries.
 
 ## Links
 
