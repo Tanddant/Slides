@@ -66,7 +66,7 @@ const SessionExpands = [...SessionSelects.filter(s => s.indexOf("/") > -1).map(s
   let Speakers: IItems = sp.web.lists.getByTitle("Speakers").items.select(...SpeakerSelects).top(1000);
 
 
-  //const query = await  Sessions.filter<ISession>(s => s.text("Category").equals("Microsoft Teams"));
+  //const query = Sessions.filter<ISession>(s => s.text("Category").equals("Microsoft Teams"));
   const query = Sessions.filter("Category eq 'Microsoft Teams'");
 
 
