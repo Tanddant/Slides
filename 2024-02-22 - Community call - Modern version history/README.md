@@ -8,5 +8,5 @@ A sample built with @tmaestrini demonstrating how to interact with the Verison h
 
 | Title     | Link                                                                                                                                                                       |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Recording | Not up yet                                                                                                                                                                 |  |
+| Recording | [Recording](https://www.youtube.com/watch?v=ThXs8DV5hIg)                                                                                                                                                        |  |
 | Code      | [https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-modern-version-history](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-modern-version-history) |
